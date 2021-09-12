@@ -1,0 +1,47 @@
+:root {
+  --background: rgb(247, 221, 213);
+  --text: rgb(255, 92, 92);
+  --grey: rgb(235, 232, 228);
+  --border: rgb(46, 46, 46);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.para {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.genreList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.showFood li {
+  list-style-type: none;
+  text-align: left;
+  width: 300px;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: blue;
+  border: 1px solid var(--text);
+  border-radius: 0.2rem;
+}
+
+.rating {
+  text-align: left;
+  font-size: 0.8rem;
+  color: var(--border);
+}
